@@ -12,7 +12,7 @@ import (
 )
 
 type (
-	// item defines the fields associated with the item tag
+	// item defines the fields associated(关联）with the item tag
 	// in the rss document.
 	item struct {
 		XMLName     xml.Name `xml:"item"`

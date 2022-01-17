@@ -14,7 +14,7 @@ type Feed struct {
 	Type string `json:"type"`
 }
 
-// RetrieveFeeds reads and unmarshals the feed data file.
+// RetrieveFeeds reads and unmarshals the feed data file. - 解析、反序列化源数据文件
 func RetrieveFeeds() ([]*Feed, error) {
 	// Open the file.
 	file, err := os.Open(dataFile)
